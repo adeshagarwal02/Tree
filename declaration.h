@@ -4,6 +4,6 @@ typedef struct node
 	union 
 	{
 		struct node *right;
-		struct node left
+		struct node *left
 	};
 }node;
