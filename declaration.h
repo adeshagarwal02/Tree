@@ -1,9 +1,6 @@
 typedef struct node
 {
 	float data;
-	union 
-	{
-		struct node *right;
-		struct node *left
-	};
+	struct node *right;
+	struct node *left;
 }node;
